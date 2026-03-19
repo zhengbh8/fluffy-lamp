@@ -35,3 +35,11 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Thesis build artifacts #
+*.pdf
+*.aux
+*.out
+*.toc
+*.log
+thesis/build/
