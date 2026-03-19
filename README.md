@@ -4,7 +4,7 @@
 
 ## 使用方式
 
-1. 在 `thesis/thesis.md` 中填写论文的各章节内容，可按章节拆分和合并。
+1. 在 `thesis/thesis.md` 中填写论文的各章节内容，或在 `thesis/chapters/` 下为每章创建独立的 Markdown 文件，最终合并到 `thesis/thesis.md` 输出。
 2. 如需导出为 PDF，可使用 [Pandoc](https://pandoc.org/)：
    ```bash
    pandoc thesis/thesis.md -o thesis/thesis.pdf --from markdown --toc
@@ -15,6 +15,7 @@
 ## 目录结构
 
 - `thesis/thesis.md`：论文主文件（Markdown 模板）。
+- `thesis/chapters/`：可选的分章节草稿目录。
 - `thesis/assets/`：插图、图表等资源。
 - `LICENSE`：许可协议（MIT）。
 
