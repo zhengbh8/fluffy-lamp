@@ -9,6 +9,7 @@
    ```bash
    pandoc thesis/thesis.md -o thesis/thesis.pdf --from markdown --toc
    ```
+   文档包含中文时，建议追加 `--pdf-engine=xelatex -V mainfont=\"Noto Serif CJK SC\"` 或其他系统可用字体以避免乱码。
 3. 将图片、图表等资源放入 `thesis/assets/`。
 4. 使用分支与 Pull Request 组织修改和评审，确保重要变更都有记录。
 
